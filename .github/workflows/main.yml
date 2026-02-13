@@ -1,0 +1,50 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  terraform-check:
+    name: 'Terraform Lint & Validate'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Setup Terraform
+        uses: hashicorp/setup-terraform@v2
+      - name: Terraform Init
+        run: terraform init
+        working-directory: ./terraform
+      - name: Terraform Validate
+        run: terraform validate
+        working-directory: ./terraform
+
+  backend-build:
+    name: 'Backend Build & Test'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+      - name: Install dependencies
+        run: npm install
+        working-directory: ./backend
+      - name: Run Tests
+        run: npm test
+        working-directory: ./backend
+
+  docker-build:
+    name: 'Docker Build'
+    needs: [backend-build]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Build Docker Image
+        run: docker build -t matematica-mais-backend:latest ./backend
