@@ -1,0 +1,3 @@
+/home/luis-fernando-a-dos-santos/Documentos/App/matematicamais/android/app/.cxx/RelWithDebInfo/4435v4b6/x86/CMakeFiles/appmodules.dir
+/home/luis-fernando-a-dos-santos/Documentos/App/matematicamais/android/app/.cxx/RelWithDebInfo/4435v4b6/x86/CMakeFiles/edit_cache.dir
+/home/luis-fernando-a-dos-santos/Documentos/App/matematicamais/android/app/.cxx/RelWithDebInfo/4435v4b6/x86/CMakeFiles/rebuild_cache.dir

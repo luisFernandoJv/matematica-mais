@@ -1,0 +1,4 @@
+/home/luis-fernando-a-dos-santos/Documentos/App/matematicamais/android/app/.cxx/RelWithDebInfo/4435v4b6/armeabi-v7a/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir
+/home/luis-fernando-a-dos-santos/Documentos/App/matematicamais/android/app/.cxx/RelWithDebInfo/4435v4b6/armeabi-v7a/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir
+/home/luis-fernando-a-dos-santos/Documentos/App/matematicamais/android/app/.cxx/RelWithDebInfo/4435v4b6/armeabi-v7a/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/edit_cache.dir
+/home/luis-fernando-a-dos-santos/Documentos/App/matematicamais/android/app/.cxx/RelWithDebInfo/4435v4b6/armeabi-v7a/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/rebuild_cache.dir

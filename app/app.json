@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "Matemáticamais",
+    "slug": "matematicamais",
+    "version": "1.0.4",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "backgroundColor": "#ffffff"
+    },
+    "android": {
+      "package": "com.matematicamais",
+      "versionCode": 4
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.matematicamais"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "895b63da-e898-455a-b197-0fe1b35453af"
+      }
+    }
+  }
+}

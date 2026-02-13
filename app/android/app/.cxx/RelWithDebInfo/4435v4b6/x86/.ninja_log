@@ -1,0 +1,8 @@
+# ninja log v5
+0	28	0	/home/luis-fernando-a-dos-santos/Documentos/App/matematicamais/android/app/.cxx/RelWithDebInfo/4435v4b6/x86/CMakeFiles/cmake.verify_globs	e1416a16c5a72ded
+65	11489	1760101929556731999	CMakeFiles/appmodules.dir/home/luis-fernando-a-dos-santos/Documentos/App/matematicamais/android/app/build/generated/autolinking/src/main/jni/autolinking.cpp.o	fc46fafb867b5298
+22	474	1760102146545587570	build.ninja	7065cd04a12ea306
+12064	12108	1760101930194725700	/home/luis-fernando-a-dos-santos/Documentos/App/matematicamais/android/app/build/intermediates/cxx/RelWithDebInfo/4435v4b6/obj/x86/libappmodules.so	b12a52c2bcc30681
+71	12064	1760101930134726292	CMakeFiles/appmodules.dir/OnLoad.cpp.o	fb6fed6c5b221e56
+0	17	0	clean	269ab561c8fd9785
+3	15	0	/home/luis-fernando-a-dos-santos/Documentos/App/matematicamais/android/app/.cxx/RelWithDebInfo/4435v4b6/x86/CMakeFiles/cmake.verify_globs	e1416a16c5a72ded
