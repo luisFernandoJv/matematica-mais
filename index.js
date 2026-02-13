@@ -1,8 +1,23 @@
+// index.js
 import { registerRootComponent } from 'expo';
+import { Amplify } from 'aws-amplify';
 
-import App from './App';
+Amplify.configure({
+  Auth: {
+    Cognito: {
+      region: 'us-east-1',
+      
+      // ID do Pool
+      userPoolId: 'us-east-1_BvQh5H6v3', 
+      
+      // ID do Cliente
+      userPoolClientId: '5jvq0i96ffiqkhh038sg6ur0g7', 
+      
+      // A linha mais importante: informa que usamos login nativo
+      authenticationFlowType: 'USER_SRP_AUTH',
+    }
+  }
+});
 
-// registerRootComponent calls AppRegistry.registerComponent('main', () => App);
-// It also ensures that whether you load the app in Expo Go or in a native build,
-// the environment is set up appropriately
+import App from './App'; 
 registerRootComponent(App);
